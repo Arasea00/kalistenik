@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Upperbody.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"> FOA </div>
+            <div class="menu_kanan">
+                <a href="Index.html #home"> Home </a>
+                <a href="index.html #Training"> Training </a>
+                <a href="index.html #Program"> Program </a>
+                <a href="index.html #Footer"> About us </a>
+        </div>
+    </nav>
+    <div>
+    <div class="training_box">
+        <div class="box_train">
+            <h1>TRAINING</h1>
+        </div>
+        <div class="arrow">
+            <a href="Index.html" class="arrow_link">
+                <img src="Img/ooooooooooooooooooooooooooooooooooo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="cardd">
+    <div class="card_container">
+        <div class="card">
+            <img src="Img/Coreday.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <p id="demo"></p>
+                <a onclick="changetxt()" class="btn">detail</a>
+                <script>
+                    function changetxt() {
+                    document.getElementById("demo").innerHTML = "Push up adalah rangkaian kehidupan anjayy";
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="Img/pushup1.png"> 
+            <div class="card_conten">
+                <h3>push up</h3>
+                <p id="dmo"></p>
+                <a class="btn" id="myBtn">detail</a>
+                <script>
+                    document.getElementById("myBtn").onclick = changetext;
+                    function changetext() {
+                        document.getElementById("dmo").innerHTML = "percobaan ke dua guys";
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="Img/Legday.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <p id="info">Octa gundul pcran sm farel cheerleader</p>
+                <a class="btn" id="myButton">detail</a>
+                
+            </div>
+                <script>
+                    const button = document.getElementById("myButton");
+                    const info = document.getElementById("info");
+                    button.addEventListener("mouseover", () => {
+                    info.style.display = "block";
+                    });
+                    button.addEventListener("mouseout", () => {
+                    info.style.display = "none";
+                    });
+                </script>
+        </div>
+    </div> 
+    <div class="card_container">
+        <div class="card">
+            <img src="Img/Pushday.png">
+            <div id="card_conten">
+                <h3>push up</h3>
+                 <p id="demoo"></p>
+                <a onclick="removeHandler()" class="btn">Detail</a>
+            </div>
+                <script>
+                    document.getElementById("card_conten").addEventListener("mousemove", myFunction);
+                    function myFunction() {
+                        document.getElementById("demoo").innerHTML = Math.random();
+                    }
+                    function removeHandler() {
+                        document.getElementById("card_conten").removeEventListener("mousemove", myFunction);
+                    }
+                </script>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="asset/image.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <a href="" class="btn">detail</a>
+                
+            <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+            Mouse Over Me</div>
+            <script>
+            function mOver(obj) {
+            obj.innerHTML = "Thank You"
+            }
+
+            function mOut(obj) {
+            obj.innerHTML = "Mouse Over Me"
+            }
+            </script>
+            </div>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="asset/image.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <a href="" class="btn">detail</a>
+            </div>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="asset/image.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <a href="" class="btn">detail</a>
+            </div>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="asset/image.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <a href="" class="btn">detail</a>
+            </div>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <img src="asset/image.png">
+            <div class="card_conten">
+                <h3>push up</h3>
+                <a href="" class="btn">detail</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+    <footer class="footer2">
+        <p>skjsjsjjsjsjsjs</p>
+    </footer>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html> 

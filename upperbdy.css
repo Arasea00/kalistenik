@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2F3E46;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #354F52;
+  padding: 5px 70px;
+}
+.logo{
+    color: #EEE6C8;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.menu_kanan{
+    display: flex;
+    gap: 38px;
+    padding-right: 68px;
+}
+.menu_kanan a{
+    text-decoration: none;
+    color: #EEE6C8;
+    font-size: 14px;
+}
+.card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.card_training{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px;
+}
+.training_box{
+    display: flex;
+    justify-content: center; 
+    gap: 8px;
+}
+.box_train{
+    background-color: #D6DAD5;
+    width: 602px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20PX;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.card_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card {
+    width: 280px;
+    height: 320px;
+    background-color: #52796F;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.card_conten {
+    padding-left: 10px;
+}
+.card img{
+    width: 100%;
+    height: 161px;
+}
+h3{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    margin-bottom: 8px;
+    gap: 9px;
+    color: #fcfcfc;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 8px 16px;
+    background-color: #000000;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 32px;
+    width: 80px;
+    position: absolute;
+    color: #fcfcfc;
+}
+.cardd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer2 {
+    background-color: #213E3E;
+    color: #EEE6C8;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+.arrow_link {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn:hover {
+    background-color: bisque;
+    color: #000000;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: bisque;
+    color: #000000;
+    cursor: pointer;
+}
